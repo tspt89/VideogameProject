@@ -24,11 +24,16 @@ public class Player : MonoBehaviour
     bool inGround = false;
     bool facingRight = true;
 
+    private CameraController camctrl;
+    private gameMaster gm;
+
     // Start is called before the first frame update
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        camctrl = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraController>();
+        gm = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<gameMaster>();
     }
 
     // Update is called once per frame
@@ -64,14 +69,27 @@ public class Player : MonoBehaviour
             effects.clip = death;
             effects.Play();
             rbody.constraints = RigidbodyConstraints2D.FreezePosition;
+            camctrl.speed = 0;
             StartCoroutine(ChangeScene());
+
         }
 
     }
 
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.CompareTag("Coin"))
+        {
+            Destroy(col.gameObject);
+            gm.points += 1;
+            anim.Play("Player_celebrate");
+            StartCoroutine(ChangeScene());
+        }
+    }
+
     IEnumerator ChangeScene()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene(0);
     }
 

@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
 
     public Transform target;
-    public float speed = 0.01f;
+    public float speed = 20f;
 
 
     // Start is called before the first frame update
