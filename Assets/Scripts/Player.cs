@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
             Flip();
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && inGround)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && inGround)
         {
             rbody.AddForce(new Vector2(0, jumpForce));
             effects.clip = jump;
