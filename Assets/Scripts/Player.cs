@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public AudioClip hurt;
     public AudioClip death;
 
-    float velocity = 4f;
+    float velocity = 5f;
     private Rigidbody2D rbody;
     private Animator anim;
 
@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
 
     public Transform feet;
     float widthFeet = 0.2f;
-    float jumpForce = 400f;
+    float jumpForce = 12f;
     public LayerMask ground;
     bool inGround = false;
     bool facingRight = true;
@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && inGround)
         {
-            rbody.AddForce(new Vector2(0, jumpForce));
+            rbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             effects.clip = jump;
             effects.Play();
         }
