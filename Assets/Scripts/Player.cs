@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public AudioClip hurt;
     public AudioClip death;
 
-    float velocity = 10f;
+    float velocity = 4f;
     private Rigidbody2D rbody;
     private Animator anim;
 
@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
 
     IEnumerator ChangeScene()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene(0);
     }
 
