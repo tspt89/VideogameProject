@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public AudioClip jump;
     public AudioClip hurt;
     public AudioClip death;
+    public AudioClip victory;
 
     float velocity = 5f;
     private Rigidbody2D rbody;
@@ -19,7 +20,7 @@ public class Player : MonoBehaviour
 
     public Transform feet;
     float widthFeet = 0.2f;
-    float jumpForce = 12f;
+    public float jumpForce = 12f;
     public LayerMask ground;
     bool inGround = false;
     bool facingRight = true;
@@ -61,7 +62,7 @@ public class Player : MonoBehaviour
         }
 
 
-        if (Energy <= 0 && isAlive)
+        if (Energy <= 0 && isAlive && inGround)
         {
             Energy = 0;
             isAlive = false;
@@ -72,6 +73,10 @@ public class Player : MonoBehaviour
             camctrl.speed = 0;
             StartCoroutine(ChangeScene());
 
+        } else if (Energy <= 0 && isAlive && !inGround)
+        {
+            camctrl.speed = 0;
+            Wait();
         }
 
     }
@@ -82,15 +87,37 @@ public class Player : MonoBehaviour
         {
             Destroy(col.gameObject);
             gm.points += 1;
+            effects.clip = victory;
+            effects.Play();
             anim.Play("Player_celebrate");
-            StartCoroutine(ChangeScene());
+            StartCoroutine(ChangeVictoryScene());
         }
     }
 
     IEnumerator ChangeScene()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene(0);
+    }
+
+    IEnumerator ChangeVictoryScene()
+    {
+        yield return new WaitForSeconds(6);
+        SceneManager.LoadScene(0);
+    }
+
+    IEnumerator Wait()
+    {
+        Energy = 0;
+        isAlive = false;
+        yield return new WaitForSeconds(3);
+        anim.Play("Player_death");
+        effects.clip = death;
+        effects.Play();
+        rbody.constraints = RigidbodyConstraints2D.FreezePosition;
+        
+        StartCoroutine(ChangeScene());
+
     }
 
     public void Flip()

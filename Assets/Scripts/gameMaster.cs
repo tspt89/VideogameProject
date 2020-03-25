@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class gameMaster : MonoBehaviour
 {
     public GameObject WinUI;
+   
 
     private bool won = false;
 
@@ -27,12 +28,14 @@ public class gameMaster : MonoBehaviour
         if(points > 0)
         {
             won = !won;
+            camctrl.effects.Pause();
         }
 
         if(won)
         {
             WinUI.SetActive(true);
             camctrl.speed = 0;
+
         }
 
         

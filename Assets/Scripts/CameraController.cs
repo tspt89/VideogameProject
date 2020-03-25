@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
 
     public Transform target;
     public float speed = 100f;
+    public AudioSource effects;
 
 
     // Start is called before the first frame update
@@ -25,5 +26,7 @@ public class CameraController : MonoBehaviour
 
         //Moving alone
         transform.Translate(Vector3.right * speed * Time.deltaTime);
+
+
     }
 }

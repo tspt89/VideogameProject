@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: 3f2a97dc02c263240b8fa4b6b8359672
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4737485992982725321
+    second: Ateroid_0
+  - first:
+      213: 4563130117164942424
+    second: Ateroid_1
+  - first:
+      213: 5137273062221878857
+    second: Ateroid_2
+  - first:
+      213: -2573018807554088110
+    second: Ateroid_3
+  - first:
+      213: 3738390656932043471
+    second: Ateroid_4
+  - first:
+      213: 1613655671526967745
+    second: Ateroid_5
+  - first:
+      213: -4384674190849695183
+    second: Ateroid_6
+  - first:
+      213: 6422010233068870384
+    second: Ateroid_7
+  - first:
+      213: -2233761172082410613
+    second: Ateroid_8
+  - first:
+      213: 6216674041712772873
+    second: Ateroid_9
+  - first:
+      213: -6118758065184837613
+    second: Ateroid_10
+  - first:
+      213: 7482248240534045226
+    second: Ateroid_11
+  - first:
+      213: 2288915528986719586
+    second: Ateroid_12
+  - first:
+      213: -2615899602487031760
+    second: Ateroid_13
+  - first:
+      213: 1622691660110728334
+    second: Ateroid_14
+  - first:
+      213: 6937837089662055653
+    second: Ateroid_15
+  - first:
+      213: -4027382656804060010
+    second: Ateroid_16
+  - first:
+      213: 1762399417458113206
+    second: Ateroid_17
+  - first:
+      213: -4236593598861604563
+    second: Ateroid_18
+  - first:
+      213: 8145285162813840967
+    second: Ateroid_19
+  - first:
+      213: 5255965439769582437
+    second: Ateroid_20
+  - first:
+      213: -8531329570037544133
+    second: Ateroid_21
+  - first:
+      213: -4771567953269909023
+    second: Ateroid_22
+  - first:
+      213: 4451076704766479191
+    second: Ateroid_23
+  - first:
+      213: 5247358828178492860
+    second: Ateroid_24
+  - first:
+      213: 8010928665312524188
+    second: Ateroid_25
+  - first:
+      213: -4523056538071030868
+    second: Ateroid_26
+  - first:
+      213: 3692713783783870583
+    second: Ateroid_27
+  - first:
+      213: 6815061950180347010
+    second: Ateroid_28
+  - first:
+      213: -1995671854470278527
+    second: Ateroid_29
+  - first:
+      213: 8815709341855530216
+    second: Ateroid_30
+  - first:
+      213: -3130789052275863494
+    second: Ateroid_31
+  - first:
+      213: 5841365892604823747
+    second: Ateroid_32
+  - first:
+      213: -6907367181844543664
+    second: Ateroid_33
+  - first:
+      213: 4687523247414120919
+    second: Ateroid_34
+  - first:
+      213: 2448927427553948447
+    second: Ateroid_35
+  - first:
+      213: -504636972041196337
+    second: Ateroid_36
+  - first:
+      213: 2754180812868797968
+    second: Ateroid_37
+  - first:
+      213: 5124996867753516299
+    second: Ateroid_38
+  - first:
+      213: -8270015225861791341
+    second: Ateroid_39
+  - first:
+      213: 7431341383245245111
+    second: Ateroid_40
+  - first:
+      213: -2685102881412160369
+    second: Ateroid_41
+  - first:
+      213: 6079079068504984852
+    second: Ateroid_42
+  - first:
+      213: -4954649432187526895
+    second: Ateroid_43
+  - first:
+      213: 3634742109723955670
+    second: Ateroid_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ateroid_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 261
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2cf1c096eeeb140800000000000000
+      internalID: 4737485992982725321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 264
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c0814aae735f30800000000000000
+      internalID: 4563130117164942424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 261
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9461be3b1a24b4740800000000000000
+      internalID: 5137273062221878857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 258
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253e657e60dca4cd0800000000000000
+      internalID: -2573018807554088110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_4
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 256
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcad212ee7e61e330800000000000000
+      internalID: 3738390656932043471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 147
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9c823a84bd46610800000000000000
+      internalID: 1613655671526967745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 145
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132a49eed028623c0800000000000000
+      internalID: -4384674190849695183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 142
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5efd18409f1950800000000000000
+      internalID: 6422010233068870384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 141
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bb7f88c061001e0800000000000000
+      internalID: -2233761172082410613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ateroid_9
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 141
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9078ea48a10164650800000000000000
+      internalID: 6216674041712772873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
