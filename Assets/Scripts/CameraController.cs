@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
 
     public Transform target;
-    public float speed = 100f;
+    public float speed = 1f;
     public AudioSource effects;
 
 

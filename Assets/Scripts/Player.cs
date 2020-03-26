@@ -28,6 +28,8 @@ public class Player : MonoBehaviour
     private CameraController camctrl;
     private gameMaster gm;
 
+    private bool canControl = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,7 +56,7 @@ public class Player : MonoBehaviour
             Flip();
 
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && inGround)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && inGround && canControl)
         {
             rbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             effects.clip = jump;
@@ -85,12 +87,9 @@ public class Player : MonoBehaviour
     {
         if(col.CompareTag("Coin"))
         {
-            Destroy(col.gameObject);
-            gm.points += 1;
-            effects.clip = victory;
-            effects.Play();
-            anim.Play("Player_celebrate");
-            StartCoroutine(ChangeVictoryScene());
+            canControl = false;
+            StartCoroutine(PlayerCelebration(col));
+            
         }
     }
 
@@ -104,6 +103,17 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(6);
         SceneManager.LoadScene(0);
+    }
+
+    IEnumerator PlayerCelebration(Collider2D col)
+    {
+        Destroy(col.gameObject);
+        gm.points += 1;
+        effects.clip = victory;
+        effects.Play();
+        yield return new WaitForSeconds(2);
+        anim.Play("Player_celebrate");
+        StartCoroutine(ChangeVictoryScene());
     }
 
     IEnumerator Wait()
